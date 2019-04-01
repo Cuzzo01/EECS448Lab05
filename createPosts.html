@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Create a Post</title>
+    <script src="scripts/createPostScripts.js"></script>
+  </head>
+  <body>
+    <h3>Enter a user ID:</h3>
+    <form id='newPost' onsubmit="return formSubmit()" onmethod="post" action="createPosts.php">
+      <p>UserID: <input type='text' name='userID'></input></p>
+      <br>
+      <p style='margin-top: 0px;'>Post:</p>
+      <textarea name="postContent" cols="40" rows="5"></textarea>
+      <br>
+      <input type='submit' value='Submit'>
+    </form>
+  </body>
+</html>

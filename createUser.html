@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Create a User</title>
+    <script src="scripts/createUserScripts.js"></script>
+  </head>
+  <body>
+    <h3>Enter a user ID:</h3>
+    <form id='newUser' onsubmit="return formSubmit()" onmethod="post" action="createUser.php">
+      <input type='text' name='userID'></input>
+      <input type='submit' value='Submit'>
+    </form>
+  </body>
+</html>
